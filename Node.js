@@ -1,4 +1,4 @@
-export class Node {
+class Node {
   constructor(data) {
     this.data = data;
     this.next = null;
@@ -16,3 +16,5 @@ export class Node {
     return this.next;
   }
 }
+
+module.exports = Node;
